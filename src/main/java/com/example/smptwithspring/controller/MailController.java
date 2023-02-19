@@ -24,7 +24,7 @@ public class MailController {
             SimpleMailMessage message=new SimpleMailMessage();
             message.setSubject(mailControllerDTO.getSubject());
             message.setFrom("g9673.rumesh@gmail.com");
-            message.setTo(mailControllerDTO.getTomMail());
+            message.setTo(mailControllerDTO.getToMail());
             message.setText(mailControllerDTO.getMessage());
 
             javaMailSender.send(message);
