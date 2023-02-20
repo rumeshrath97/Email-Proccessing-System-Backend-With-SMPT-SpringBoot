@@ -1,6 +1,6 @@
 # Email-Proccessing-System-with-SMPT-SpringBoot
 
-### Finalized application.property. There are configured with SENDBLUE SMPT server 
+### Finalized application.properties. There are configured with SENDBLUE SMPT server 
 ![Alt text](src/Outputs/AAAA.png)
 
 ### Create a sample email from postman
